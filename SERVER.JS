@@ -112,7 +112,7 @@ app.get('/additems/:id/:quantity', function (req, res) {
 	   if (!(req.params.id in data))
            data[req.params.id] = req.params.quantity;
 		   else 
-		     data[req.params.id] =data[req.params.id] +req.params.quantity;
+		     data[req.params.id] =(data[req.params.id]-0) +(req.params.quantity-0);
        console.log( data );
 	   fs.writeFile( "data/users.json", JSON.stringify(data), function (err){
 		   if (err) return console.log(err);
