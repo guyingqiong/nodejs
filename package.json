@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "js restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongoose": "^4.4.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/guyingqiong/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guyingqiong/nodejs/issues"
+  },
+  "homepage": "https://github.com/guyingqiong/nodejs#readme"
+}
